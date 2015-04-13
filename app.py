@@ -1,4 +1,4 @@
-import os
+import sys
 import tornado.web
 import tornado.ioloop
 from json import dumps
@@ -23,6 +23,7 @@ class MainHandler(tornado.web.RequestHandler):
     def all(self, url):
         res = dict(headers=self.request.headers,
                    body=self.request.body,
+                   method=self.request.method,
                    url=url,
                    query=self.request.arguments)
         print dumps(res, indent=True)
@@ -31,5 +32,5 @@ class MainHandler(tornado.web.RequestHandler):
 application = tornado.web.Application([(r"/(.*)", MainHandler)])
 
 if __name__ == "__main__":
-    application.listen(os.getenv('PORT', 9999))
+    application.listen(sys.argv[1])
     tornado.ioloop.IOLoop.instance().start()
