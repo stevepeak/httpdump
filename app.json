@@ -3,7 +3,7 @@
   "description": "Development Echo Server",
   "repository": "https://github.com/stevepeak/devcho",
   "website": "https://github.com/stevepeak/devcho",
-  "logo": "",
+  "logo": "https://octodex.github.com/images/baracktocat.jpg",
   "keywords": ["development", "debug"],
   "success_url": "/",
   "addons": [],
