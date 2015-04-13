@@ -1,8 +1,8 @@
 {
-  "name": "devcho",
+  "name": "Deved",
   "description": "Development Echo Server",
-  "repository": "https://github.com/stevepeak/devcho",
-  "website": "https://github.com/stevepeak/devcho",
+  "repository": "https://github.com/stevepeak/deved",
+  "website": "https://github.com/stevepeak/deved",
   "logo": "https://octodex.github.com/images/baracktocat.jpg",
   "keywords": ["development", "debug"],
   "success_url": "/",
