@@ -1,7 +1,7 @@
 > Simple echo server used for debugging.
 
 ```sh
-curl -X GET https://devcho.herokuapp.com/hello-world?langauge=english
+curl -X GET https://deved.herokuapp.com/hello-world?langauge=english
 
 GET 200
 
